@@ -1,0 +1,15 @@
+operator = input("Enter your operator : ")
+num1 = int(input("Enter number 1 : "))
+num2 = int(input("Enter number 2 : "))
+if operator=="add":
+	add_result=num1 + num2
+	print(add_result)
+elif operator=="sub":
+	sub_result=num1 - num2
+	print(sub_result)
+elif operator=="mul":
+	mul_result=num1 * num2
+	print(mul_result)
+else:
+	div_result=num1 / num2
+	print(div_result)
